@@ -1,0 +1,6 @@
+runtime: nodejs18
+service: __CLIENT__-analytics-data-collector
+instance_class: F1
+
+automatic_scaling:
+  target_cpu_utilization: 0.9
