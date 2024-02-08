@@ -37,7 +37,7 @@ Before running the script, ensure the following:
 3. Run the script in a Bash environment:
 
     ```bash
-    ./deploy.sh PROJECT_ID KEY_FILE_PATH DEPLOY_OPTION CLIENT_NAME
+    ./deployer.sh PROJECT_ID KEY_FILE_PATH DEPLOY_OPTION CLIENT_NAME
     ```
 
     Replace `PROJECT_ID`, `KEY_FILE_PATH`, `DEPLOY_OPTION`, and `CLIENT_NAME` with your actual values.
