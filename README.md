@@ -44,11 +44,12 @@ Before running the script, ensure the following:
 
 ## Deployment Options
 
-- `bigquery`: Deploys BigQuery dataset.
-- `storage`: Deploys Cloud Storage bucket.
-- `appengine`: Deploys App Engine services.
-- `functions`: Deploys Cloud Functions.
 - `all`: Deploys all available services.
+- `bigquery`: Deploys BigQuery dataset, when it needs an update.
+- `storage`: Deploys Cloud Storage bucket, when it needs an update.
+- `appengine`: Deploys App Engine services, when they need an update.
+- `functions`: Deploys Cloud Functions, when they need an update.
+
 
 ## Other options
 
